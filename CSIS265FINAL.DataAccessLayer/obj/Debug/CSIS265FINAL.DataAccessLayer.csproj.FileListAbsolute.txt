@@ -1,0 +1,11 @@
+C:\vsprojects\CSIS265FINAL\CSIS265FINAL.DataAccessLayer\bin\Debug\CSIS265FINAL.DataAccessLayer.dll
+C:\vsprojects\CSIS265FINAL\CSIS265FINAL.DataAccessLayer\bin\Debug\CSIS265FINAL.DataAccessLayer.pdb
+C:\vsprojects\CSIS265FINAL\CSIS265FINAL.DataAccessLayer\obj\Debug\CSIS265FINAL.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\vsprojects\CSIS265FINAL\CSIS265FINAL.DataAccessLayer\obj\Debug\CSIS265FINAL.DataAccessLayer.dll
+C:\vsprojects\CSIS265FINAL\CSIS265FINAL.DataAccessLayer\obj\Debug\CSIS265FINAL.DataAccessLayer.pdb
+C:\vsprojects\CSIS265FINAL\CSIS265FINAL.DataAccessLayer\bin\Debug\log4net.dll
+C:\vsprojects\CSIS265FINAL\CSIS265FINAL.DataAccessLayer\bin\Debug\log4net.xml
+C:\vsprojects\CSIS265FINAL\CSIS265FINAL.DataAccessLayer\obj\Debug\CSIS265FINAL.DataAccessLayer.csproj.CopyComplete
+C:\vsprojects\CSIS265FINAL\CSIS265FINAL.DataAccessLayer\bin\Debug\CSIS265FINAL.DataAccessLayer.dll.config
+C:\vsprojects\CSIS265FINAL\CSIS265FINAL.DataAccessLayer\bin\Debug\log4net.config
+C:\vsprojects\CSIS265FINAL\CSIS265FINAL.DataAccessLayer\obj\Debug\CSIS265FINAL.DataAccessLayer.csprojAssemblyReference.cache

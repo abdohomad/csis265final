@@ -1,0 +1,10 @@
+2021-12-18 23:33:13,041 [6] DEBUG (CSIS265FINAL.DataAccessLayer.BaseDao:68) -- database is connected
+2021-12-18 23:33:13,059 [6] DEBUG (CSIS265FINAL.DataAccessLayer.CarDao:24) -- INSIDE CAR DEFAULT CONSTRUCTOR
+2021-12-18 23:33:32,061 [11] DEBUG (CSIS265FINAL.DataAccessLayer.BaseDao:68) -- database is connected
+2021-12-18 23:33:32,062 [11] DEBUG (CSIS265FINAL.DataAccessLayer.CarDao:24) -- INSIDE CAR DEFAULT CONSTRUCTOR
+2021-12-18 23:33:32,113 [11] DEBUG (CSIS265FINAL.DataAccessLayer.CarDao:133) -- CSIS265FINAL.DataAccessLayer.Car was added to the database
+2021-12-18 23:33:41,431 [15] DEBUG (CSIS265FINAL.DataAccessLayer.BaseDao:68) -- database is connected
+2021-12-18 23:33:41,432 [15] DEBUG (CSIS265FINAL.DataAccessLayer.CarDao:24) -- INSIDE CAR DEFAULT CONSTRUCTOR
+2021-12-18 23:33:48,859 [6] DEBUG (CSIS265FINAL.DataAccessLayer.BaseDao:68) -- database is connected
+2021-12-18 23:33:48,859 [6] DEBUG (CSIS265FINAL.DataAccessLayer.CarDao:24) -- INSIDE CAR DEFAULT CONSTRUCTOR
+2021-12-18 23:33:48,898 [6] ERROR (CSIS265FINAL.DataAccessLayer.CarDao:313) -- Incorrect syntax near the keyword 'WHERE'.
