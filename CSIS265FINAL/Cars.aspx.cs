@@ -91,7 +91,14 @@ namespace CSIS265FINAL
                     carDao.Update(car);
                     txtAddSucsses.ForeColor = Color.Green;
                     txtAddSucsses.Text = "Car updated successfuly";
-                    
+                    logger.Debug($"id is: {hdnId.Value}");
+
+                    logger.Debug($"make is: {txtMake.Text}");
+                    logger.Debug($"model is: {txtModel.Text}");
+                    logger.Debug($"color is: {txtColor.Text}");
+                    logger.Debug($"weight is: {weight}");
+                    logger.Debug($"mpg is: {mpg}");
+
                 }
                 else
                 {

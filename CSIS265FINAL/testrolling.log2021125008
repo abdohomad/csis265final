@@ -1,3 +1,0 @@
-2021-12-08 03:50:34,828 [11] DEBUG (CSIS265FINAL.DataAccessLayer.BaseDao:68) -- database is connected
-2021-12-08 03:50:55,657 [11] DEBUG (CSIS265FINAL.DataAccessLayer.BaseDao:68) -- database is connected
-2021-12-08 03:50:55,664 [11] DEBUG (CSIS265FINAL.DataAccessLayer.BaseDao:61) -- CSIS265FINAL.DataAccessLayer.Car was added to the database

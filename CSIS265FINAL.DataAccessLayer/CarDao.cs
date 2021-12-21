@@ -131,6 +131,7 @@ namespace CSIS265FINAL.DataAccessLayer
                 id = Convert.ToInt32(adpt.InsertCommand.ExecuteScalar());
                 rtnObj.Id = id;
                 logger.Debug($"{rtnObj} was added to the database");
+                logger.Debug(car);
                 
                 return rtnObj;
             }

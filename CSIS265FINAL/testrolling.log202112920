@@ -1,3 +1,0 @@
-2021-12-20 04:09:16,758 [21] DEBUG (CSIS265FINAL.DataAccessLayer.BaseDao:68) -- database is connected
-2021-12-20 04:09:16,763 [21] DEBUG (CSIS265FINAL.DataAccessLayer.CarDao:24) -- INSIDE CAR DEFAULT CONSTRUCTOR
-2021-12-20 04:09:16,775 [21] DEBUG (CSIS265FINAL.DataAccessLayer.CarDao:133) -- CSIS265FINAL.DataAccessLayer.Car was added to the database

@@ -1,2 +1,10 @@
-2021-12-20 19:10:05,283 [10] DEBUG (CSIS265FINAL.DataAccessLayer.BaseDao:68) -- database is connected
-2021-12-20 19:10:05,300 [10] DEBUG (CSIS265FINAL.DataAccessLayer.CarDao:24) -- INSIDE CAR DEFAULT CONSTRUCTOR
+2021-12-20 19:26:06,001 [11] DEBUG (CSIS265FINAL.DataAccessLayer.BaseDao:68) -- database is connected
+2021-12-20 19:26:06,014 [11] DEBUG (CSIS265FINAL.DataAccessLayer.CarDao:24) -- INSIDE CAR DEFAULT CONSTRUCTOR
+2021-12-20 19:26:22,363 [13] DEBUG (CSIS265FINAL.DataAccessLayer.BaseDao:68) -- database is connected
+2021-12-20 19:26:22,364 [13] DEBUG (CSIS265FINAL.DataAccessLayer.CarDao:24) -- INSIDE CAR DEFAULT CONSTRUCTOR
+2021-12-20 19:26:22,410 [13] DEBUG (MyLogger:94) -- id is: 56
+2021-12-20 19:26:22,411 [13] DEBUG (MyLogger:96) -- make is: test2
+2021-12-20 19:26:22,412 [13] DEBUG (MyLogger:97) -- model is: test
+2021-12-20 19:26:22,413 [13] DEBUG (MyLogger:98) -- color is: xyz
+2021-12-20 19:26:22,413 [13] DEBUG (MyLogger:99) -- weight is: 11
+2021-12-20 19:26:22,414 [13] DEBUG (MyLogger:100) -- mpg is: 221

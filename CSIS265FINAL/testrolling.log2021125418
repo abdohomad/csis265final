@@ -1,6 +1,0 @@
-2021-12-18 20:54:02,143 [10] DEBUG (CSIS265FINAL.DataAccessLayer.BaseDao:68) -- database is connected
-2021-12-18 20:54:02,150 [10] DEBUG (CSIS265FINAL.DataAccessLayer.CarDao:24) -- INSIDE PERSONDAO DEFAULT CONSTRUCTOR
-2021-12-18 20:54:02,162 [10] DEBUG (CSIS265FINAL.DataAccessLayer.CarDao:133) -- CSIS265FINAL.DataAccessLayer.Car was added to the database
-2021-12-18 20:54:27,866 [10] DEBUG (CSIS265FINAL.DataAccessLayer.BaseDao:68) -- database is connected
-2021-12-18 20:54:27,866 [10] DEBUG (CSIS265FINAL.DataAccessLayer.CarDao:24) -- INSIDE PERSONDAO DEFAULT CONSTRUCTOR
-2021-12-18 20:54:27,907 [10] DEBUG (CSIS265FINAL.DataAccessLayer.CarDao:133) -- CSIS265FINAL.DataAccessLayer.Car was added to the database

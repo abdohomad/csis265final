@@ -1,7 +1,0 @@
-2021-12-20 03:46:03,162 [10] DEBUG (CSIS265FINAL.DataAccessLayer.BaseDao:68) -- database is connected
-2021-12-20 03:46:03,182 [10] DEBUG (CSIS265FINAL.DataAccessLayer.CarDao:24) -- INSIDE CAR DEFAULT CONSTRUCTOR
-2021-12-20 03:46:06,393 [10] DEBUG (CSIS265FINAL.DataAccessLayer.BaseDao:68) -- database is connected
-2021-12-20 03:46:06,394 [10] DEBUG (CSIS265FINAL.DataAccessLayer.CarDao:24) -- INSIDE CAR DEFAULT CONSTRUCTOR
-2021-12-20 03:46:10,993 [10] DEBUG (CSIS265FINAL.DataAccessLayer.BaseDao:68) -- database is connected
-2021-12-20 03:46:10,994 [10] DEBUG (CSIS265FINAL.DataAccessLayer.CarDao:24) -- INSIDE CAR DEFAULT CONSTRUCTOR
-2021-12-20 03:46:11,017 [10] ERROR (MyLogger:113) -- Input string was not in a correct format.
