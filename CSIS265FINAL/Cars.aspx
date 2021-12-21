@@ -30,12 +30,10 @@
     <asp:Button ID="btnAddCar" runat="server" OnClick="btnAddCar_Click" Text="AddCar" />
 </p>
     <p>
-        <asp:Label ID="txtAddSucsses" runat="server" BorderStyle="None" ForeColor="#66FF99"></asp:Label>
+        <asp:Label ID="txtAddSucsses" runat="server" BorderStyle="None"></asp:Label>
 </p>
  
-    <p>
-        <asp:Label ID="txtErorr" runat="server" BorderStyle="None" ForeColor="red"></asp:Label>
-</p>
+   
       <p>
         <asp:Repeater ID="rptData" runat="server">
             <HeaderTemplate>

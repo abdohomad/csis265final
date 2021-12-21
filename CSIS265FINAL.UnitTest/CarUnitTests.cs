@@ -21,8 +21,10 @@ namespace CSIS265FINAL.UnitTests
         [TestMethod]
         public void CarTestPropertyId()
         {
-            Car temp = new Car();
-            temp.Id = 42;
+            Car temp = new Car
+            {
+                Id = 42
+            };
             Assert.AreEqual(42, temp.Id);
         }
 

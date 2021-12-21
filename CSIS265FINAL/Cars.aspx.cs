@@ -2,6 +2,7 @@
 using log4net;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -88,6 +89,7 @@ namespace CSIS265FINAL
                     int mpg = Convert.ToInt32(txtMpg.Text);
                     car = new Car(id, make, model, color, weight, mpg);
                     carDao.Update(car);
+                    txtAddSucsses.ForeColor = Color.Green;
                     txtAddSucsses.Text = "Car updated successfuly";
                     
                 }
@@ -101,6 +103,8 @@ namespace CSIS265FINAL
                     int mpg = Convert.ToInt32(txtMpg.Text);
                     car = new Car(-1, make, model, color, weight, mpg);
                     carDao.Insert(car);
+                    txtAddSucsses.ForeColor = Color.Green;
+
                     txtAddSucsses.Text = "Car added successfuly";
                 }
                 WipeOutControl();
@@ -112,7 +116,11 @@ namespace CSIS265FINAL
             catch (Exception ex)
             {
                 logger.Error(ex.Message);
-                txtErorr.Text = ex.Message.ToString();
+
+                txtAddSucsses.ForeColor = Color.Red;
+
+                txtAddSucsses.Text = ex.Message.ToString();
+               
             }
 
         }
@@ -165,6 +173,7 @@ namespace CSIS265FINAL
                 Label lblId = (Label)item.FindControl("lblId");
                 Car obj = new Car(Convert.ToInt32(lblId.Text), "", "", "", -1, -2);
                 carDao.Delete(obj);
+                txtAddSucsses.ForeColor = Color.Green;        
                 txtAddSucsses.Text = "Car deleted successfuly";
 
                 DisplayCars();

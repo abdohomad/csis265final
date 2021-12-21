@@ -69,7 +69,7 @@ namespace CSIS265FINAL.UnitTests
             try
             {
                 CarDao dao = new CarDao();
-                Car obj = new Car(-1, "toyota", "avalon", "black", 334, 21);
+                Car obj = new Car(-1, "Chevrolet", "Silverado", "White ", 334, 21);
                 Car rtnObj = (Car)dao.Insert(obj);
                 Assert.IsTrue(rtnObj.Id > 0);
             }
@@ -87,19 +87,24 @@ namespace CSIS265FINAL.UnitTests
             try
             {
                 CarDao dao = new CarDao();
-                Car filter = new Car(44, "toyota", "camry", "pink", 527.00, 1);
+                Car filter = new Car(44, "Lexus", " GX 470", "Silver ", 527.00, 1);
                 Car rtnObj = (Car)dao.Update(filter);
 
               filter = new Car(44, "", "", "", -3.14, -1);
               rtnObj = (Car)dao.SelectOneObject(filter);
 
-                Assert.IsTrue(rtnObj.Make.Contains("o"));
-                Assert.IsTrue(rtnObj.Model.Contains("m"));
+                Assert.IsTrue(rtnObj.Make.Contains("Le"));
+                Assert.IsTrue(rtnObj.Model.Contains("GX"));
+                Assert.IsTrue(rtnObj.Color.Contains("Si"));
+                Assert.IsFalse(rtnObj.Mpg < 0);
+
+
             }
             catch (DALException ex)
             {
                 System.Console.WriteLine(ex.Message);
                 Assert.IsTrue(false);
+                Assert.IsFalse(true);
               
             }
         }
@@ -112,10 +117,10 @@ namespace CSIS265FINAL.UnitTests
             try
             {
                 CarDao dao = new CarDao();
-                Car filter = new Car(11, "", "","", -1.001, -3);
+                Car filter = new Car(53, "", "","", -1.001, -3);
                 dao.Delete(filter);
 
-                filter = new Car(11, "", "", "", -1.001, -3);
+                filter = new Car(53, "", "", "", -1.001, -3);
                 Car rtnObj = (Car)dao.SelectOneObject(filter);
 
                 Assert.IsNull(rtnObj);

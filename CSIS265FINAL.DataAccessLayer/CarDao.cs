@@ -33,7 +33,7 @@ namespace CSIS265FINAL.DataAccessLayer
         {
             try
             {
-                Car myFilter = (Car)car;
+                Car myCar = (Car)car;
                 Car rtnObj = null;
 
                 conn = new SqlConnection(connectionString);
@@ -45,7 +45,7 @@ namespace CSIS265FINAL.DataAccessLayer
 
                 SqlParameter idParm = new SqlParameter();
                 idParm.ParameterName = "@idParm";
-                idParm.Value = myFilter.Id;
+                idParm.Value = myCar.Id;
 
                 cmd.Parameters.Add(idParm);
 
